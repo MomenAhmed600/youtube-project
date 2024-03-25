@@ -1,0 +1,447 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+  box-sizing: border-box;
+}
+.navbar {
+  background-color: #0f0f0f !important;
+}
+body {
+  background-color: #0f0f0f;
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #515151;
+}
+
+.container-all {
+  margin-top: 90px;
+}
+
+
+
+
+#youtube-logo {
+  width: 20%;
+  height: 10%;
+  color: red;
+  margin-left: 10px;
+}
+
+
+
+.side-menu {
+  padding-top: 50px;
+}
+
+#other-btn {
+  background-color: transparent;
+  box-shadow: unset;
+  border: unset;
+  
+}
+
+#other-btn:hover {
+  color: white;
+  background-color: #312f2f;
+  border-radius: 50px;
+  width: 20px;
+  height: 20px;
+}
+.search {
+  width: 560px;
+  background-color: transparent;
+  border-radius: 999px;
+  overflow: hidden;
+  border: 1px solid rgb(44, 43, 43);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 676px;
+}
+
+.search input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  width: 80%;
+  padding: 0px 10px;
+}
+
+.search-logo {
+  background-color: rgb(49, 47, 47);
+  width: 50px;
+  height: 40px;
+  padding: 13px;
+  color: rgb(255, 255, 255);
+}
+
+.mic-logo {
+  background-color: #312f2f;
+  border-radius: 100%;
+  width: 43px;
+  height: 42px;
+  padding: 9px;
+  margin-left: 25px;
+}
+.user-pic {
+  border-radius: 50%;
+  width: 36px;
+  cursor: pointer;
+}
+
+.right-arrow i {
+  background-color: transparent;
+}
+.right-arrow {
+  border-radius: 50px;
+  background-color: transparent;
+  box-shadow: unset;
+  border: unset;
+  position: absolute;
+  right: -15px;
+  width: 40px;
+  height: 40px;
+  transition: 0.3s;
+}
+
+.right-arrow:hover {
+  background-color: #312f2f;
+}
+
+.left-arrow {
+  color: #fff;
+  border-radius: 50px;
+  background-color: transparent;
+  box-shadow: unset;
+  border: unset;
+  position: absolute;
+  left: -4px;
+  width: 40px;
+  height: 40px;
+  transition: 0.3s;
+}
+
+
+.left-arrow:hover {
+  background-color: #312f2f;
+}
+
+.sub-menu-wrap {
+  position: absolute;
+  top: 60px;
+  right: -300px;
+  transition: max-height 0.5s;
+  z-index: 1;
+  width: 291px;
+}
+
+.sub-menu-wrap.open-menu {
+  right: 23px;
+}
+
+.sub-menu {
+  background-color: #312f2f;
+  padding: 20px;
+  border-radius: 8px;
+  width: 302px;
+}
+hr {
+  color: #fff;
+}
+
+.sub-menu-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 3px;
+
+}
+
+.sub-menu-link:hover {
+  background-color: #515151;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.sub-menu-link i {
+  width: 30px;
+  margin-right: 8px;
+  text-align: center;
+}
+
+.about-sub-menu {
+  font-size:x-large;
+  color: #fff;
+}
+
+
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-info h5 {
+  color: #fff;
+}
+
+.user-info-a {
+  margin-left: 64px;
+  cursor: pointer;
+  overflow: hidden;
+  color: #3b97e6;
+}
+
+.user-info img {
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.right-nav{
+  position: relative;
+}
+
+.right-nav button,
+span {
+  margin: 0px 2px;
+  cursor: pointer;
+  border-radius: 100%;
+  width: 39px;
+  height: 39px;
+  padding: 6px;
+}
+.right-nav button:hover {
+  background-color: #312f2f;
+}
+.fa-angle-right {
+  color: #fff;
+  background-color: #222222;
+}
+
+.button-list {
+  white-space: nowrap;
+  overflow: hidden;
+  display: flex;
+  gap: 8px;
+
+}
+
+.btn-wrapper {
+  display: flex;
+  margin-bottom: 25px;
+  margin-right: 55px;
+  position: relative;
+  overflow-x: scroll;
+}
+
+.btn-wrapper::-webkit-scrollbar{
+  display: none;
+}
+
+.button-list button {
+  background-color: #312f2f;
+}
+
+.card {
+  background-color: #0f0f0f;
+  color: #fff;
+  border: none;
+  /* width: 100px; */
+}
+
+.card-text {
+  color: #aaaaaa;
+}
+
+.card-img-top {
+  border-radius: 10px;
+}
+.img-channel {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  margin-right: 6px;
+}
+
+.shorts {
+  color: #fff;
+  margin-top: -22px;
+  margin-left: 37px;
+}
+
+#shorts-logo {
+  color: red;
+}
+
+.title {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+}
+
+.title::before,
+.title::after {
+  content: "";
+  height: 2px;
+  background-color: #515151;
+  display: block;
+}
+
+.button-under {
+  height: 40px;
+  color: #fff;
+  background-color: #202124;
+  border: 1px solid #515151;
+  border-radius: 100px;
+}
+
+.fa-arrow-down {
+  margin-left: 0px;
+}
+
+.card-title {
+  cursor: pointer;
+}
+
+img {
+  cursor: pointer;
+}
+
+/* slide menu */
+
+.slide-menu-wrap {
+  position: fixed;
+  margin-top: 64px;
+  width: 256px;
+  left: -256px;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+}
+.hide-menu {
+  left: 0;
+}
+
+.slide-menu-links{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 3px;
+  line-height: 20px;
+  
+}
+
+.slide-menu-links:hover{
+  background-color: #515151;
+  border-radius: 8px;
+}
+
+.arrow-down-slide {
+  margin-left: 0px;
+}
+
+.slide-menu-links i {
+  width: 30px;
+  margin-right: 8px;
+  text-align: center;
+}
+
+.slide-menu-links img {
+  width: 30px;
+  margin-right: 8px;
+  text-align: center;
+}
+
+
+
+.slide {
+  height: 100%;
+  background-color: #0f0f0f;
+  overflow-y:scroll;
+  line-height: 0px;
+  padding: 4px;
+  padding-top: 25px;
+}
+
+.slide::-webkit-scrollbar {
+  width: 8px;
+}
+
+.slide::-webkit-scrollbar-thumb {
+  background: #515151;
+}
+
+#red-signal {
+  color: red;
+  align-items: end;
+}
+
+#blue-dot {
+  color: #3b97e6;
+  width: 5px;
+  margin-left: 12px;
+}
+
+#youtube-logo-slide {
+  color: red;
+}
+
+.about-slide-menu{
+  font-size: small;
+  color: #aaaaaa;
+}
+
+#about-slide-menu-end-line {
+  font-size: small;
+  color: #515151;
+}
+
+
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  color: #fff;
+  font-size: 200;
+  padding: 5px 0;
+  display: block;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+ul li a i {
+  width: 40px;
+  text-align: center;
+}
+
+/* media query */
+
+@media (max-width: 1200px) {
+  .search {
+    width: 460px;
+    margin-left: 180px;
+  }
+}
+@media (max-width: 992px) {
+  .search {
+    width: 360px;
+    margin-left: 120px;
+  }
+}
+@media (max-width: 768px) {
+  .search {
+    width: 360px;
+  }
+}
